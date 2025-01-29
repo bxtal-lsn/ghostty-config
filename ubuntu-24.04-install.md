@@ -1,3 +1,4 @@
+```
 source /etc/os-release
 ARCH=$(dpkg --print-architecture)
 GHOSTTY_DEB_URL=$(
@@ -8,3 +9,4 @@ GHOSTTY_DEB_FILE=$(basename "$GHOSTTY_DEB_URL")
 curl -LO "$GHOSTTY_DEB_URL"
 sudo dpkg -i "$GHOSTTY_DEB_FILE"
 rm "$GHOSTTY_DEB_FILE"
+```
