@@ -1,4 +1,9 @@
 ```
+sudo apt update
+sudo apt upgrade
+```
+
+```
 source /etc/os-release
 ARCH=$(dpkg --print-architecture)
 GHOSTTY_DEB_URL=$(
